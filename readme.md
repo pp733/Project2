@@ -9,4 +9,4 @@ Dhruv Shah (pages home to 3)
 
 Jay Patel (pages 4 to 6)
 
-Purav Patel (pages 7 to 9)
+Purav Patel (pages 7 to 13)

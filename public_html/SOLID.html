@@ -69,14 +69,17 @@
 
             <p>
                 The Single Responsibility Principle requires that a class should have only one job.
-                So if a class has more than one responsibility, it becomes coupled. A change to one responsibility results to modification of the other responsibility.
+                So if a class has more than one responsibility, it becomes coupled. A change to one responsibility
+                results to modification of the other responsibility.
                 This principle helps to localize errors and makes it easier to reuse the code.
                 Any error in execution will point out to a smaller section of your code, accelerating your debug phase.
             </p>
             <p>
             <ul>
                 <li>Lets take a look at the example shown on the right side of the page</li>
-                <li>The function of the division class is to call the division method by getting the values from the calculation class. </li>
+                <li>The function of the division class is to call the division method by getting the values from the
+                    calculation class.
+                </li>
                 <li>It cannot do anything else except division</li>
             </ul>
             </p>
@@ -98,13 +101,18 @@
 
                 <p>
                     Software entities(Classes, modules, functions) should be open for extension, not modification.
-                    You should not need to modify the code you have already written to accommodate new functionality, but simply add what you now need.
-                    This does not mean that you cannot change your code when the code premises needs to be modified, but that if you need to add new functions similar to the one present, you should not require to change other parts of the code.
+                    You should not need to modify the code you have already written to accommodate new functionality,
+                    but simply add what you now need.
+                    This does not mean that you cannot change your code when the code premises needs to be modified, but
+                    that if you need to add new functions similar to the one present, you should not require to change
+                    other parts of the code.
                 </p>
                 <p>
                 <ul>
                     <li>Lets take a look at the example shown on the right side of the page</li>
-                    <li>There are bunch of methods in the calculation class. We cannot write those methods in just one method, instead we can just extend it to add more functionality.</li>
+                    <li>There are bunch of methods in the calculation class. We cannot write those methods in just one
+                        method, instead we can just extend it to add more functionality.
+                    </li>
                 </ul>
                 </p>
             </div>
@@ -123,13 +131,16 @@
 
             <P>
                 This Principle states that a child class must be substitutable for its parent class.
-                It also aims to ensure that the child class can assume the place of its parent class without causing any errors.
+                It also aims to ensure that the child class can assume the place of its parent class without causing any
+                errors.
 
             </P>
             <p>
             <ul>
                 <li>Lets take a look at the example shown on the right side of the page</li>
-                <li>The addition class can work itself and it won't break anything in its parent class if something goes wrong.</li>
+                <li>The addition class can work itself and it won't break anything in its parent class if something goes
+                    wrong.
+                </li>
             </ul>
             </p>
         </div>
@@ -148,16 +159,19 @@
                 <h2 style="background-color:lightsalmon;">I (Interface Segregation Principle)</h2>
 
                 <p>
-                    The interface segregation principle states that an interface should be as small a possible in terms of cohesion.
+                    The interface segregation principle states that an interface should be as small a possible in terms
+                    of cohesion.
                     In other words, it should do ONE thing.
-                    It doesn’t mean that the interface should have one method. An interface can have multiple cohesive methods.
+                    It doesn’t mean that the interface should have one method. An interface can have multiple cohesive
+                    methods.
                 </p>
                 <p>
                 <ul>
                     <li>To show a good example of this principle, look at the picture in the right.</li>
                     <li>The interface segregation principle uses class and interface.</li>
                     <Li>In this design, the Car only need to implement the go() method that it needs.
-                        It doesn’t need to implement the fly() method that it doesn’t use.</Li>
+                        It doesn’t need to implement the fly() method that it doesn’t use.
+                    </Li>
                 </ul>
                 </p>
             </div>
@@ -176,15 +190,19 @@
                 <h2 style="background-color:lightsalmon;">D (Dependency Inversion Principle)</h2>
 
                 <p>
-                    The dependency inversion principle states that: High-level modules should not depend on the low-level modules. Both should depend on abstractions.
+                    The dependency inversion principle states that: High-level modules should not depend on the
+                    low-level modules. Both should depend on abstractions.
                     Abstractions should not depend on details. Details should depend on abstractions.
-                    The dependency inversion principle aims to reduce the coupling between classes by creating an abstraction layer between them.
+                    The dependency inversion principle aims to reduce the coupling between classes by creating an
+                    abstraction layer between them.
                 </p>
                 <p>
                 <ul>
                     <li>Lets take a look at the example on the right side of the page.</li>
                     <li>During the development of the calculator, we didn't edit much in the high level class.</li>
-                    <Li>We called methods like addition, subtraction, division, etc., from abstraction and created a low level classes ("class subtraction(calculation))</Li>
+                    <Li>We called methods like addition, subtraction, division, etc., from abstraction and created a low
+                        level classes ("class subtraction(calculation))
+                    </Li>
                 </ul>
                 </p>
             </div>
@@ -207,9 +225,10 @@
         <a href="https://github.com/pp733/calc2/tree/part4">Open and Close</a>
         <a href="https://github.com/pp733/calc2/tree/part4">Liskov Substitute</a>
         <a href="https://github.com/pp733/calc2/tree/part4">Dependency Inversion</a>
-        <a href="https://www.pythontutorial.net/python-oop/python-interface-segregation-principle/">Interface Segregation</a>
+        <a href="https://www.pythontutorial.net/python-oop/python-interface-segregation-principle/">Interface
+            Segregation</a>
         <a href="https://github.com/pp733/Project2">Github Link</a>
-        <img src="Images/W3c.png" alt="w3c html validation" width="100" height="50">
+        <a href="https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fpro2calc.eastus.azurecontainer.io%2F" rel="nofollow" title="Validate as HTML5"><img alt="w3c" src="Images/W3c.png" style="height: 50px; width: 100px"></a>
     </div>
 </footer>
 
